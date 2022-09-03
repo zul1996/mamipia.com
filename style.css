@@ -54,14 +54,14 @@ h6 {
 /* start-styling */
 
 h2 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 38px;
   line-height: 45px;
 }
 
 p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 120%;
@@ -83,37 +83,36 @@ h5 {
   line-height: 120%;
 }
 
-/* hero-section */
+/* hero */
 
-.hero-bg {
+.hero {
   background: #916c5a;
-}
-
-.hero-section {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
-.hero-section img {
+
+.hero img {
   margin: 0 auto;
 }
 
-/* navbar-section */
+/* navbar */
 
-.navbar-section {
+.navbar {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.navbar-section li,
-a {
+.navbar li,
+.navbar a {
   list-style: none;
   color: black;
   text-decoration: none;
 }
-.navbar-section-left {
+
+.navbar-left {
   padding-top: 20px;
   max-width: 100%;
   width: 338px;
@@ -127,7 +126,7 @@ a {
   line-height: 28px;
 }
 
-.navbar-section-right {
+.navbar-right {
   padding-top: 20px;
   max-width: 100%;
   width: 338px;
@@ -164,6 +163,7 @@ a {
   color: #716c6c;
   padding-bottom: 14px;
 }
+
 .hero-cta h3 {
   display: flex;
   justify-content: center;
@@ -173,14 +173,15 @@ a {
   background: orange;
 }
 
-.produk-section {
+.product {
   display: flex;
   justify-content: center;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.grid-section {
+
+.grid {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
@@ -188,7 +189,7 @@ a {
   padding: 0 20px 50px 20px;
 }
 
-.grid-section h5 {
+.grid h5 {
   padding-top: 14px;
 }
 
@@ -197,7 +198,7 @@ a {
     background-color: lightblue;
   }
 
-  .grid-section {
+  .grid {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -205,19 +206,19 @@ a {
     padding: 0 20px 50px 20px;
   }
 
-  .hero-section {
+  .hero {
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
   }
 
-  .navbar-section {
+  .navbar {
     padding-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .navbar-section-left {
+  .navbar-left {
     padding-top: 20px;
     max-width: 100%;
     width: 100px;
@@ -231,7 +232,7 @@ a {
     line-height: 28px;
   }
 
-  .navbar-section-right {
+  .navbar-right {
     padding-top: 20px;
     max-width: 100%;
     width: 100px;
