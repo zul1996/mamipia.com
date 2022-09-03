@@ -1,0 +1,193 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* start-styling */
+
+h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+}
+
+/* hero-section */
+
+.hero-bg {
+  background: #916c5a;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.hero-section img {
+  margin: 0 auto;
+}
+
+/* navbar-section */
+
+.navbar-section {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-section li,
+a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+.navbar-section-left {
+  padding-top: 20px;
+  max-width: 100%;
+  width: 338px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.navbar-section-right {
+  padding-top: 20px;
+  max-width: 100%;
+  width: 338px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hero-cta-bg {
+  margin-top: -250px;
+
+  background-color: #ccab98;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  padding: 130px 0 130px 0;
+}
+
+.hero-cta h2 {
+  padding-bottom: 14px;
+}
+
+.hero-cta p {
+  color: #716c6c;
+  padding-bottom: 14px;
+}
+.hero-cta h3 {
+  display: flex;
+  justify-content: center;
+  padding: 14px 0;
+  width: 242px;
+  height: 62px;
+  background: orange;
+}
+
+.produk-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 0 25px;
+  padding-bottom: 50px;
+}
+
+.grid-section h5 {
+  padding-top: 14px;
+}
