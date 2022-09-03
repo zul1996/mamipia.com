@@ -185,9 +185,78 @@ a {
   grid-template-columns: auto auto auto;
   justify-content: center;
   gap: 0 25px;
-  padding-bottom: 50px;
+  padding: 0 20px 50px 20px;
 }
 
 .grid-section h5 {
   padding-top: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .grid-section {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 0 25px;
+    padding: 0 20px 50px 20px;
+  }
+
+  .hero-section {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .navbar-section {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar-section-left {
+    padding-top: 20px;
+    max-width: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .navbar-section-right {
+    padding-top: 20px;
+    max-width: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .hero-cta-bg {
+    margin-top: -250px;
+
+    background-color: #ccab98;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    padding: 250px 0 130px 0;
+  }
 }
